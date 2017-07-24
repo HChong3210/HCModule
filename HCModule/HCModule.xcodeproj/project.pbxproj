@@ -62,6 +62,7 @@
 				4724D5591F1FA58100F33F50 /* AppDelegate.m */,
 				4724D55B1F1FA58100F33F50 /* ViewController.h */,
 				4724D55C1F1FA58100F33F50 /* ViewController.m */,
+				47AADC381F26407800FA0908 /* Module */,
 				4724D55E1F1FA58100F33F50 /* Main.storyboard */,
 				4724D5611F1FA58100F33F50 /* Assets.xcassets */,
 				4724D5631F1FA58100F33F50 /* LaunchScreen.storyboard */,
@@ -77,6 +78,13 @@
 				4724D5561F1FA58100F33F50 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47AADC381F26407800FA0908 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +322,7 @@
 				4724D56B1F1FA58100F33F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
