@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'HCModule_Example' do
+  pod 'HCModule', :path => '../'
+
+  target 'HCModule_Tests' do
+    inherit! :search_paths
+
+  end
+end

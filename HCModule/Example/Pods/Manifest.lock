@@ -1,0 +1,16 @@
+PODS:
+  - HCModule (0.1.0)
+
+DEPENDENCIES:
+  - HCModule (from `../`)
+
+EXTERNAL SOURCES:
+  HCModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HCModule: fedb69cbc7f737b2926eec31ce031a2189039f3a
+
+PODFILE CHECKSUM: d63ef4f39b148eb4140e2904d758fcccb5d2c5cb
+
+COCOAPODS: 1.2.1

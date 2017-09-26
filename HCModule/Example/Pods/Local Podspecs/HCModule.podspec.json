@@ -1,0 +1,22 @@
+{
+  "name": "HCModule",
+  "version": "0.1.0",
+  "summary": "A short description of HCModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HChong3210/HCModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HChong3210": "hchong7557@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/HChong3210/HCModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HCModule/Classes/**/*"
+}
