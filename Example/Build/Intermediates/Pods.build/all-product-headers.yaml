@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/hc/HCModule/Example/Build/Products/Debug-iphonesimulator/HCModule/HCModule.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "HCModule-Swift.h",
+          'external-contents': "/Users/hc/HCModule/Example/Build/Products/Debug-iphonesimulator/HCModule/HCModule.framework/Headers/HCModule-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "HCModule-umbrella.h",
+          'external-contents': "/Users/hc/HCModule/Example/Pods/Target Support Files/HCModule/HCModule-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hc/HCModule/Example/Build/Products/Debug-iphonesimulator/HCModule/HCModule.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/hc/HCModule/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/HCModule.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hc/HCModule/Example/Build/Products/Debug-iphonesimulator/Pods_HCModule_Example.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-HCModule_Example-umbrella.h",
+          'external-contents': "/Users/hc/HCModule/Example/Pods/Target Support Files/Pods-HCModule_Example/Pods-HCModule_Example-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_HCModule_Example-Swift.h",
+          'external-contents': "/Users/hc/HCModule/Example/Build/Products/Debug-iphonesimulator/Pods_HCModule_Example.framework/Headers/Pods_HCModule_Example-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hc/HCModule/Example/Build/Products/Debug-iphonesimulator/Pods_HCModule_Example.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/hc/HCModule/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-HCModule_Example.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
