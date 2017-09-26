@@ -10,6 +10,14 @@
 		1DE05C59D755077D0BF7157E2CE765FA /* HCModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E348BD56D50085E81B784C5A69661507 /* HCModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30A2BF91A24A505AEFFE974E9A649563 /* Pods-HCModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B524EFDCAA6ADB80ACAC5CFB1D36CDB5 /* Pods-HCModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41E8335169AA0EE27F302C531EF67E66 /* Pods-HCModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB92A61912C6D9A2B6184A01821E52 /* Pods-HCModule_Tests-dummy.m */; };
+		475B35D71F79F5CC003A559D /* HCModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B35D61F79F5CC003A559D /* HCModuleProtocol.h */; };
+		475B35D91F79F603003A559D /* HCModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B35D81F79F603003A559D /* HCModule.h */; };
+		475B35E01F7A3D6A003A559D /* UINavigationController+HCModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B35DE1F7A3D6A003A559D /* UINavigationController+HCModuleCore.h */; };
+		475B35E11F7A3D6A003A559D /* UINavigationController+HCModuleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 475B35DF1F7A3D6A003A559D /* UINavigationController+HCModuleCore.m */; };
+		475B35E41F7A3D8B003A559D /* UIViewController+HCModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B35E21F7A3D8B003A559D /* UIViewController+HCModuleCore.h */; };
+		475B35E51F7A3D8B003A559D /* UIViewController+HCModuleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 475B35E31F7A3D8B003A559D /* UIViewController+HCModuleCore.m */; };
+		475B35E81F7A42EF003A559D /* HCModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B35E61F7A42EF003A559D /* HCModuleCore.h */; };
+		475B35E91F7A42EF003A559D /* HCModuleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 475B35E71F7A42EF003A559D /* HCModuleCore.m */; };
 		4CF1A4E84BD354D5798AB5C8016AF0A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4DCFBE97135A13EB12B0D699F97CF2F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CE4399B05F932BE8023878D5C8B2D497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -37,6 +45,14 @@
 		2CEB92A61912C6D9A2B6184A01821E52 /* Pods-HCModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		36145E313F333BB80628369B0F5D0A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440AB63DCA20787E80A7F3D909102FBA /* Pods-HCModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HCModule_Tests.modulemap"; sourceTree = "<group>"; };
+		475B35D61F79F5CC003A559D /* HCModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCModuleProtocol.h; sourceTree = "<group>"; };
+		475B35D81F79F603003A559D /* HCModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCModule.h; sourceTree = "<group>"; };
+		475B35DE1F7A3D6A003A559D /* UINavigationController+HCModuleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HCModuleCore.h"; sourceTree = "<group>"; };
+		475B35DF1F7A3D6A003A559D /* UINavigationController+HCModuleCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HCModuleCore.m"; sourceTree = "<group>"; };
+		475B35E21F7A3D8B003A559D /* UIViewController+HCModuleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HCModuleCore.h"; sourceTree = "<group>"; };
+		475B35E31F7A3D8B003A559D /* UIViewController+HCModuleCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HCModuleCore.m"; sourceTree = "<group>"; };
+		475B35E61F7A42EF003A559D /* HCModuleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCModuleCore.h; sourceTree = "<group>"; };
+		475B35E71F7A42EF003A559D /* HCModuleCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCModuleCore.m; sourceTree = "<group>"; };
 		4DB6B0B4BEBBC034CF9306E7F4D0D324 /* HCModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HCModule.modulemap; sourceTree = "<group>"; };
 		568CFEEFAEDBA0309444C3308A1A71DD /* Pods-HCModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A268B2CF0C0AD50189E040297976407 /* Pods-HCModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -101,6 +117,14 @@
 		2201158DA118EFD2653CC1202FAB7905 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				475B35D61F79F5CC003A559D /* HCModuleProtocol.h */,
+				475B35D81F79F603003A559D /* HCModule.h */,
+				475B35E61F7A42EF003A559D /* HCModuleCore.h */,
+				475B35E71F7A42EF003A559D /* HCModuleCore.m */,
+				475B35DE1F7A3D6A003A559D /* UINavigationController+HCModuleCore.h */,
+				475B35DF1F7A3D6A003A559D /* UINavigationController+HCModuleCore.m */,
+				475B35E21F7A3D8B003A559D /* UIViewController+HCModuleCore.h */,
+				475B35E31F7A3D8B003A559D /* UIViewController+HCModuleCore.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -235,6 +259,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE05C59D755077D0BF7157E2CE765FA /* HCModule-umbrella.h in Headers */,
+				475B35D91F79F603003A559D /* HCModule.h in Headers */,
+				475B35E01F7A3D6A003A559D /* UINavigationController+HCModuleCore.h in Headers */,
+				475B35E41F7A3D8B003A559D /* UIViewController+HCModuleCore.h in Headers */,
+				475B35E81F7A42EF003A559D /* HCModuleCore.h in Headers */,
+				475B35D71F79F5CC003A559D /* HCModuleProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +337,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -351,6 +380,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F320D236471E07794E1E7094D16F29FA /* HCModule-dummy.m in Sources */,
+				475B35E51F7A3D8B003A559D /* UIViewController+HCModuleCore.m in Sources */,
+				475B35E11F7A3D6A003A559D /* UINavigationController+HCModuleCore.m in Sources */,
+				475B35E91F7A42EF003A559D /* HCModuleCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +444,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -420,15 +454,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -496,7 +536,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -504,14 +546,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
