@@ -7,12 +7,13 @@
 //
 
 #import "HCAppDelegate.h"
+#import "HCModule.h"
 
 @implementation HCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
+    [[HCModuleCore moduleCore] setModuleScheme:@"HC"];
     return YES;
 }
 

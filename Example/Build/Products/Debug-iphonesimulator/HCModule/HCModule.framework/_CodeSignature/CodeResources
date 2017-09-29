@@ -6,7 +6,27 @@
 	<dict>
 		<key>Headers/HCModule-umbrella.h</key>
 		<data>
-		6eVnXEFagEFcXHyINjAm896Eq2Q=
+		Wwe2vBltI8MF+NGIwdXsSOlnH70=
+		</data>
+		<key>Headers/HCModule.h</key>
+		<data>
+		tPEvUiTbIiHtWWyFp0ndPhFr8Cs=
+		</data>
+		<key>Headers/HCModuleCore.h</key>
+		<data>
+		/neLghdiiIMieNy1D6uZxpCwaJw=
+		</data>
+		<key>Headers/HCModuleProtocol.h</key>
+		<data>
+		ZKvvzP2+EwdU5qOK/3eVQIp8R9Y=
+		</data>
+		<key>Headers/UINavigationController+HCModuleCore.h</key>
+		<data>
+		2lD/O441OyMEdMfZd9MiOAVfC84=
+		</data>
+		<key>Headers/UIViewController+HCModuleCore.h</key>
+		<data>
+		9ZHrAU9MZKdkJ64sGBR7DhExmZA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,11 +43,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6eVnXEFagEFcXHyINjAm896Eq2Q=
+			Wwe2vBltI8MF+NGIwdXsSOlnH70=
 			</data>
 			<key>hash2</key>
 			<data>
-			vn7H2TScmSm3jJoAH7aUt14P6WhbmrCpaxzpkNIz+jA=
+			JAp1x/TxrxpfggeaPu36HIQJ9dHT50L1wN77FPEy7Fk=
+			</data>
+		</dict>
+		<key>Headers/HCModule.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tPEvUiTbIiHtWWyFp0ndPhFr8Cs=
+			</data>
+			<key>hash2</key>
+			<data>
+			0CSXPTVGz06LlMa+6LLsqpyQSgDKR1JIytbASP6nfSA=
+			</data>
+		</dict>
+		<key>Headers/HCModuleCore.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/neLghdiiIMieNy1D6uZxpCwaJw=
+			</data>
+			<key>hash2</key>
+			<data>
+			SlR0SQP8NUJ+cPtUcYs5Tf5+54YuUSWrZ6g4kYvprbk=
+			</data>
+		</dict>
+		<key>Headers/HCModuleProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZKvvzP2+EwdU5qOK/3eVQIp8R9Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			5AgVT9EcAvbIxttMzTe8qmxeh7CjKMCgt1jl8ogOs4g=
+			</data>
+		</dict>
+		<key>Headers/UINavigationController+HCModuleCore.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2lD/O441OyMEdMfZd9MiOAVfC84=
+			</data>
+			<key>hash2</key>
+			<data>
+			AdSu1bDI3crUV6Si44m2O0Lb98IfCIauv4RsS88ayO4=
+			</data>
+		</dict>
+		<key>Headers/UIViewController+HCModuleCore.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9ZHrAU9MZKdkJ64sGBR7DhExmZA=
+			</data>
+			<key>hash2</key>
+			<data>
+			77K1Z/+VbhIFy81yrc3vFJ0lrbH6xHSkhO9OUVm0LCA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

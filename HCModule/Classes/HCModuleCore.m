@@ -34,11 +34,14 @@
 }
 
 #pragma mark - Public
+//根据moduleName返回对应注册的类
 - (id)moduleName:(NSString *)moduleName openWithParams:(NSDictionary *)params callback:(void(^)(NSDictionary *moduleInfo))callback {
     NSCAssert(moduleName != nil, @"moduleName can not be nil!");
-    id module;
-    
-    return nil;
+    id module = [self moduleName:moduleName performSelectorName:@"open:callback:" withParams:params callback:callback];
+    if (module == nil) {
+        module = [self moduleName:moduleName performSelectorName:@"open_present:callback:" withParams:params callback:callback];
+    }
+    return module;
 }
 
 #pragma mark - Private
@@ -46,7 +49,7 @@
  把遵守HCModuleProtocol的类缓存起来
  */
 - (void)cacheModuleProrocolClasses {
-    if (_cache.count == 0) {
+    if (_cache.count != 0) {
         return;
     }
     NSMutableDictionary *tmpCache = [NSMutableDictionary dictionary];
@@ -59,13 +62,34 @@
         //实现了HCModuleProtocol的类
         if (class_conformsToProtocol(class, @protocol(HCModuleProtocol))) {
             NSString *moduleName = [class moduleName];
-            [tmpCache setObject:class forKey:moduleName];
             //重复检查
             NSCAssert([tmpCache objectForKey:moduleName] == nil, @"in class %@, module %@ has defined, please check!", NSStringFromClass(class), moduleName);
+            [tmpCache setObject:NSStringFromClass(class) forKey:moduleName];
         }
     }
     free(classes);
     self.cache = [tmpCache copy];
+}
+
+//获取缓存起来的响应相应协议方法的类
+- (id)moduleName:(NSString *)moduleName performSelectorName:(NSString *)selectorName withParams:(NSDictionary *)params callback:(void(^)(NSDictionary *moduleInfo))callback {
+    NSCAssert(moduleName != nil && selectorName != nil, @"moduleName and selectorName can not be nil!");
+    id module;
+    NSString *clsName = self.cache[moduleName];
+    if (clsName.length) {
+        Class class = NSClassFromString(clsName);//根据缓存的类名字创建类
+        SEL selec = NSSelectorFromString(selectorName);
+        if (class) {
+            id target = [[class alloc] init];//初始化一个类的对象
+            if ([target respondsToSelector:selec]) {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+                module = [target performSelector:selec withObject:params withObject:callback];
+#pragma clang diagnostic pop
+            }
+        }
+    }
+    return module;
 }
 
 @end

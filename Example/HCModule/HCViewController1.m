@@ -7,8 +7,9 @@
 //
 
 #import "HCViewController1.h"
+#import "HCModule.h"
 
-@interface HCViewController1 ()
+@interface HCViewController1 ()<HCModuleProtocol>
 
 @end
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor colorWithRed:0.4 green:1 blue:0.8 alpha:1];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +25,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - HCModuleProtocol
++ (NSString *)moduleName {
+    return @"controller1";
 }
-*/
+
+- (id)open:(NSDictionary *)params callback:(void(^)(NSDictionary *))callback {
+    callback(params[@"key"]);
+    return self;
+}
 
 @end

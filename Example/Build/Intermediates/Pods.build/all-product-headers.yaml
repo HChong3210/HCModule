@@ -15,6 +15,31 @@
           'type': 'file',
           'name': "HCModule-umbrella.h",
           'external-contents': "/Users/hc/HCModule/Example/Pods/Target Support Files/HCModule/HCModule-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "HCModule.h",
+          'external-contents': "/Users/hc/HCModule/HCModule/Classes/HCModule.h"
+        },
+        {
+          'type': 'file',
+          'name': "HCModuleCore.h",
+          'external-contents': "/Users/hc/HCModule/HCModule/Classes/HCModuleCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "HCModuleProtocol.h",
+          'external-contents': "/Users/hc/HCModule/HCModule/Classes/HCModuleProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "UINavigationController+HCModuleCore.h",
+          'external-contents': "/Users/hc/HCModule/HCModule/Classes/UINavigationController+HCModuleCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIViewController+HCModuleCore.h",
+          'external-contents': "/Users/hc/HCModule/HCModule/Classes/UIViewController+HCModuleCore.h"
         }
       ]
     },

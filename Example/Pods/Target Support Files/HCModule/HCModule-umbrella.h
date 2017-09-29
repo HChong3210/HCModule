@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "HCModule.h"
+#import "HCModuleCore.h"
+#import "HCModuleProtocol.h"
+#import "UINavigationController+HCModuleCore.h"
+#import "UIViewController+HCModuleCore.h"
 
 FOUNDATION_EXPORT double HCModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char HCModuleVersionString[];

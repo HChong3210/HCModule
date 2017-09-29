@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DE05C59D755077D0BF7157E2CE765FA /* HCModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E348BD56D50085E81B784C5A69661507 /* HCModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05FCA4ACCEF3849770CF4CA77F2EDDAB /* UINavigationController+HCModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD96DC088E8FFFCD2C2B9EE3CA1120D /* UINavigationController+HCModuleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1776C303A8E4AA985B63FC24AB0F04 /* HCModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C519239CBD98790E42AC352200FF1A79 /* HCModuleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30A2BF91A24A505AEFFE974E9A649563 /* Pods-HCModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B524EFDCAA6ADB80ACAC5CFB1D36CDB5 /* Pods-HCModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3384E34D178E3BFA8C1E94B6F518F474 /* UIViewController+HCModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B36E91DDA4EB815701CE805217E0A072 /* UIViewController+HCModuleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39536748C526FC3D597DE399A1607BB0 /* HCModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E348BD56D50085E81B784C5A69661507 /* HCModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41E8335169AA0EE27F302C531EF67E66 /* Pods-HCModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB92A61912C6D9A2B6184A01821E52 /* Pods-HCModule_Tests-dummy.m */; };
-		475B35D71F79F5CC003A559D /* HCModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B35D61F79F5CC003A559D /* HCModuleProtocol.h */; };
-		475B35D91F79F603003A559D /* HCModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B35D81F79F603003A559D /* HCModule.h */; };
-		475B35E01F7A3D6A003A559D /* UINavigationController+HCModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B35DE1F7A3D6A003A559D /* UINavigationController+HCModuleCore.h */; };
-		475B35E11F7A3D6A003A559D /* UINavigationController+HCModuleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 475B35DF1F7A3D6A003A559D /* UINavigationController+HCModuleCore.m */; };
-		475B35E41F7A3D8B003A559D /* UIViewController+HCModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B35E21F7A3D8B003A559D /* UIViewController+HCModuleCore.h */; };
-		475B35E51F7A3D8B003A559D /* UIViewController+HCModuleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 475B35E31F7A3D8B003A559D /* UIViewController+HCModuleCore.m */; };
-		475B35E81F7A42EF003A559D /* HCModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 475B35E61F7A42EF003A559D /* HCModuleCore.h */; };
-		475B35E91F7A42EF003A559D /* HCModuleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 475B35E71F7A42EF003A559D /* HCModuleCore.m */; };
-		4CF1A4E84BD354D5798AB5C8016AF0A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4DCFBE97135A13EB12B0D699F97CF2F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4FCBEB781CA5924CBFDAE3A8CB53C10D /* HCModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 988749C7A8BBE05538575C40F205A1E7 /* HCModule-dummy.m */; };
+		7FD0195392C69EAD9F754AAFA68F38F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		80FBD1780EB490586102328A071D4531 /* HCModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC0E75AF05218227CFD8EA07DB4255C /* HCModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3544968F1F8E310888CC8F367854D00 /* UINavigationController+HCModuleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD7C259151C6FC309B0E7AE1C80AEA7 /* UINavigationController+HCModuleCore.m */; };
+		BA1F5A77D92A4321E5B87DB3AFF2E630 /* HCModuleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E149BF28F8B4F84302FAF28D4B6157 /* HCModuleCore.m */; };
+		BBA96472DBFD95A22896D015C1EB9EB7 /* HCModule.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD9274C62AFA32DB6AF0265CCA6CB21 /* HCModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBA382600EA2CB25ADA8EF3E6E3EAA09 /* UIViewController+HCModuleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C3C6989A467085B71BC1CE1A79483F /* UIViewController+HCModuleCore.m */; };
 		CE4399B05F932BE8023878D5C8B2D497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F320D236471E07794E1E7094D16F29FA /* HCModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 988749C7A8BBE05538575C40F205A1E7 /* HCModule-dummy.m */; };
 		FA5FCBC6767F676993163874342FED26 /* Pods-HCModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE14ED0DBCCFB2920BE954EBF5303CA7 /* Pods-HCModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC4B10A2B8C71F9E0EB8244DAB7EB944 /* Pods-HCModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC15BA4099E73CE8D98BD38ACF38DB02 /* Pods-HCModule_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -31,7 +31,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D518826726DAF849AB941C4F552BED2;
+			remoteGlobalIDString = 2E0BA2E9924B7E537355F763C294DC58;
 			remoteInfo = HCModule;
 		};
 /* End PBXContainerItemProxy section */
@@ -44,46 +44,46 @@
 		24A9AEB19C2F768A8456EA741CC0917B /* Pods-HCModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCModule_Example-resources.sh"; sourceTree = "<group>"; };
 		2CEB92A61912C6D9A2B6184A01821E52 /* Pods-HCModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		36145E313F333BB80628369B0F5D0A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		440AB63DCA20787E80A7F3D909102FBA /* Pods-HCModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HCModule_Tests.modulemap"; sourceTree = "<group>"; };
-		475B35D61F79F5CC003A559D /* HCModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCModuleProtocol.h; sourceTree = "<group>"; };
-		475B35D81F79F603003A559D /* HCModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCModule.h; sourceTree = "<group>"; };
-		475B35DE1F7A3D6A003A559D /* UINavigationController+HCModuleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HCModuleCore.h"; sourceTree = "<group>"; };
-		475B35DF1F7A3D6A003A559D /* UINavigationController+HCModuleCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HCModuleCore.m"; sourceTree = "<group>"; };
-		475B35E21F7A3D8B003A559D /* UIViewController+HCModuleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HCModuleCore.h"; sourceTree = "<group>"; };
-		475B35E31F7A3D8B003A559D /* UIViewController+HCModuleCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HCModuleCore.m"; sourceTree = "<group>"; };
-		475B35E61F7A42EF003A559D /* HCModuleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCModuleCore.h; sourceTree = "<group>"; };
-		475B35E71F7A42EF003A559D /* HCModuleCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCModuleCore.m; sourceTree = "<group>"; };
-		4DB6B0B4BEBBC034CF9306E7F4D0D324 /* HCModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HCModule.modulemap; sourceTree = "<group>"; };
+		3CC0E75AF05218227CFD8EA07DB4255C /* HCModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HCModuleProtocol.h; sourceTree = "<group>"; };
+		440AB63DCA20787E80A7F3D909102FBA /* Pods-HCModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HCModule_Tests.modulemap"; sourceTree = "<group>"; };
+		4DB6B0B4BEBBC034CF9306E7F4D0D324 /* HCModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HCModule.modulemap; sourceTree = "<group>"; };
 		568CFEEFAEDBA0309444C3308A1A71DD /* Pods-HCModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A268B2CF0C0AD50189E040297976407 /* Pods-HCModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6FACF21F2E22DE86A386DCBCE35D3884 /* Pods-HCModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		74E149BF28F8B4F84302FAF28D4B6157 /* HCModuleCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HCModuleCore.m; sourceTree = "<group>"; };
 		76A32EE8A32B14F089ED3B5EBDC8C854 /* Pods-HCModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCModule_Tests-resources.sh"; sourceTree = "<group>"; };
 		77D10A1C359DDB387676B3FFBEA513FF /* Pods-HCModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7FFD7F288381EB4DE4A3E0DE72CEF592 /* Pods-HCModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		86F393B9FA02D2DE67440859299E36E5 /* HCModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87865C1D3899213AD2249EA2CF6626E3 /* Pods_HCModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86F393B9FA02D2DE67440859299E36E5 /* HCModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HCModule.framework; path = HCModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87865C1D3899213AD2249EA2CF6626E3 /* Pods_HCModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HCModule_Example.framework; path = "Pods-HCModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		988749C7A8BBE05538575C40F205A1E7 /* HCModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCModule-dummy.m"; sourceTree = "<group>"; };
-		9C87127B043553A9C146C336DE8A3506 /* Pods_HCModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C87127B043553A9C146C336DE8A3506 /* Pods_HCModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HCModule_Tests.framework; path = "Pods-HCModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE9CDA83DFD4B9C11EC45A12A0FD0F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52A17BB122919012BA89C0BA4403660 /* HCModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCModule-prefix.pch"; sourceTree = "<group>"; };
-		B2A6FB446167B395706F310411DCAC60 /* Pods-HCModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HCModule_Example.modulemap"; sourceTree = "<group>"; };
+		B2A6FB446167B395706F310411DCAC60 /* Pods-HCModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HCModule_Example.modulemap"; sourceTree = "<group>"; };
+		B36E91DDA4EB815701CE805217E0A072 /* UIViewController+HCModuleCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HCModuleCore.h"; sourceTree = "<group>"; };
 		B524EFDCAA6ADB80ACAC5CFB1D36CDB5 /* Pods-HCModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		B9BFD15451D6B19A4B6597D4BAEB4979 /* HCModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCModule.xcconfig; sourceTree = "<group>"; };
+		C1C3C6989A467085B71BC1CE1A79483F /* UIViewController+HCModuleCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HCModuleCore.m"; sourceTree = "<group>"; };
+		C519239CBD98790E42AC352200FF1A79 /* HCModuleCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HCModuleCore.h; sourceTree = "<group>"; };
 		CC15BA4099E73CE8D98BD38ACF38DB02 /* Pods-HCModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCModule_Example-dummy.m"; sourceTree = "<group>"; };
+		CCD96DC088E8FFFCD2C2B9EE3CA1120D /* UINavigationController+HCModuleCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HCModuleCore.h"; sourceTree = "<group>"; };
+		CDD7C259151C6FC309B0E7AE1C80AEA7 /* UINavigationController+HCModuleCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HCModuleCore.m"; sourceTree = "<group>"; };
 		CE14ED0DBCCFB2920BE954EBF5303CA7 /* Pods-HCModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E348BD56D50085E81B784C5A69661507 /* HCModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCModule-umbrella.h"; sourceTree = "<group>"; };
 		F9A29C5B5A9ECEB9DEF7AB38D8CE8E6C /* Pods-HCModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCD9274C62AFA32DB6AF0265CCA6CB21 /* HCModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HCModule.h; sourceTree = "<group>"; };
 		FEE912E14265E2F113B6F469081AC55B /* Pods-HCModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F16D12B0BA8A44A6C1B38FD195DCBA5 /* Frameworks */ = {
+		0605D5DAA2598551CB48AA581FF89E66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF1A4E84BD354D5798AB5C8016AF0A7 /* Foundation.framework in Frameworks */,
+				7FD0195392C69EAD9F754AAFA68F38F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,27 +114,20 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2201158DA118EFD2653CC1202FAB7905 /* Classes */ = {
+		263F30646F83756AA3DD46B93171EA57 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				475B35D61F79F5CC003A559D /* HCModuleProtocol.h */,
-				475B35D81F79F603003A559D /* HCModule.h */,
-				475B35E61F7A42EF003A559D /* HCModuleCore.h */,
-				475B35E71F7A42EF003A559D /* HCModuleCore.m */,
-				475B35DE1F7A3D6A003A559D /* UINavigationController+HCModuleCore.h */,
-				475B35DF1F7A3D6A003A559D /* UINavigationController+HCModuleCore.m */,
-				475B35E21F7A3D8B003A559D /* UIViewController+HCModuleCore.h */,
-				475B35E31F7A3D8B003A559D /* UIViewController+HCModuleCore.m */,
+				FCD9274C62AFA32DB6AF0265CCA6CB21 /* HCModule.h */,
+				C519239CBD98790E42AC352200FF1A79 /* HCModuleCore.h */,
+				74E149BF28F8B4F84302FAF28D4B6157 /* HCModuleCore.m */,
+				3CC0E75AF05218227CFD8EA07DB4255C /* HCModuleProtocol.h */,
+				CCD96DC088E8FFFCD2C2B9EE3CA1120D /* UINavigationController+HCModuleCore.h */,
+				CDD7C259151C6FC309B0E7AE1C80AEA7 /* UINavigationController+HCModuleCore.m */,
+				B36E91DDA4EB815701CE805217E0A072 /* UIViewController+HCModuleCore.h */,
+				C1C3C6989A467085B71BC1CE1A79483F /* UIViewController+HCModuleCore.m */,
 			);
+			name = Classes;
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		27118EC7EB8DE3903755BE5A966AF869 /* HCModule */ = {
-			isa = PBXGroup;
-			children = (
-				2201158DA118EFD2653CC1202FAB7905 /* Classes */,
-			);
-			path = HCModule;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -183,6 +176,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C154B28755CCE75B31476B261AA2EE72 /* HCModule */ = {
+			isa = PBXGroup;
+			children = (
+				263F30646F83756AA3DD46B93171EA57 /* Classes */,
+			);
+			name = HCModule;
+			path = HCModule;
+			sourceTree = "<group>";
+		};
 		CCE4285219B925B8CA07297E0E3E6218 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,7 +202,7 @@
 		D0F2D146A6F4E7593DA2686ECF18478F /* HCModule */ = {
 			isa = PBXGroup;
 			children = (
-				27118EC7EB8DE3903755BE5A966AF869 /* HCModule */,
+				C154B28755CCE75B31476B261AA2EE72 /* HCModule */,
 				CCE4285219B925B8CA07297E0E3E6218 /* Support Files */,
 			);
 			name = HCModule;
@@ -246,24 +248,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		11AA3962FACD61D511DD4720CC2169F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39536748C526FC3D597DE399A1607BB0 /* HCModule-umbrella.h in Headers */,
+				BBA96472DBFD95A22896D015C1EB9EB7 /* HCModule.h in Headers */,
+				2A1776C303A8E4AA985B63FC24AB0F04 /* HCModuleCore.h in Headers */,
+				80FBD1780EB490586102328A071D4531 /* HCModuleProtocol.h in Headers */,
+				05FCA4ACCEF3849770CF4CA77F2EDDAB /* UINavigationController+HCModuleCore.h in Headers */,
+				3384E34D178E3BFA8C1E94B6F518F474 /* UIViewController+HCModuleCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		21ECD978CB343855975261D621DCF0DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				30A2BF91A24A505AEFFE974E9A649563 /* Pods-HCModule_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		41B6435A938E0BFD1AC9718CC9F2FC13 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DE05C59D755077D0BF7157E2CE765FA /* HCModule-umbrella.h in Headers */,
-				475B35D91F79F603003A559D /* HCModule.h in Headers */,
-				475B35E01F7A3D6A003A559D /* UINavigationController+HCModuleCore.h in Headers */,
-				475B35E41F7A3D8B003A559D /* UIViewController+HCModuleCore.h in Headers */,
-				475B35E81F7A42EF003A559D /* HCModuleCore.h in Headers */,
-				475B35D71F79F5CC003A559D /* HCModuleProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,13 +315,13 @@
 			productReference = 87865C1D3899213AD2249EA2CF6626E3 /* Pods_HCModule_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3D518826726DAF849AB941C4F552BED2 /* HCModule */ = {
+		2E0BA2E9924B7E537355F763C294DC58 /* HCModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5E3919802433DE0EB99A3C909B2E01C /* Build configuration list for PBXNativeTarget "HCModule" */;
+			buildConfigurationList = 500905B2F31CDD5608918E733253F609 /* Build configuration list for PBXNativeTarget "HCModule" */;
 			buildPhases = (
-				A57C9A48938179FBDAB8B907B22A9BAE /* Sources */,
-				3F16D12B0BA8A44A6C1B38FD195DCBA5 /* Frameworks */,
-				41B6435A938E0BFD1AC9718CC9F2FC13 /* Headers */,
+				17E01B22CD0FA14BC8985ABE7175DD8F /* Sources */,
+				0605D5DAA2598551CB48AA581FF89E66 /* Frameworks */,
+				11AA3962FACD61D511DD4720CC2169F7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -337,7 +339,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -351,7 +353,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D518826726DAF849AB941C4F552BED2 /* HCModule */,
+				2E0BA2E9924B7E537355F763C294DC58 /* HCModule */,
 				21C3A901CD399CD177CDE1C1C6DC7187 /* Pods-HCModule_Example */,
 				093031BA0635F9E2EA395586AFAD178A /* Pods-HCModule_Tests */,
 			);
@@ -359,6 +361,17 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		17E01B22CD0FA14BC8985ABE7175DD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCBEB781CA5924CBFDAE3A8CB53C10D /* HCModule-dummy.m in Sources */,
+				BA1F5A77D92A4321E5B87DB3AFF2E630 /* HCModuleCore.m in Sources */,
+				A3544968F1F8E310888CC8F367854D00 /* UINavigationController+HCModuleCore.m in Sources */,
+				CBA382600EA2CB25ADA8EF3E6E3EAA09 /* UIViewController+HCModuleCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F183DDCF6B557A972E263D23ECF5ED1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,24 +388,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A57C9A48938179FBDAB8B907B22A9BAE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F320D236471E07794E1E7094D16F29FA /* HCModule-dummy.m in Sources */,
-				475B35E51F7A3D8B003A559D /* UIViewController+HCModuleCore.m in Sources */,
-				475B35E11F7A3D6A003A559D /* UINavigationController+HCModuleCore.m in Sources */,
-				475B35E91F7A42EF003A559D /* HCModuleCore.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		A4AA0A136EEF7F5F65E02D514E7A12A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HCModule;
-			target = 3D518826726DAF849AB941C4F552BED2 /* HCModule */;
+			target = 2E0BA2E9924B7E537355F763C294DC58 /* HCModule */;
 			targetProxy = F8F076CE504CCCB84B13ACC073F143B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,9 +446,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -454,21 +454,15 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -536,9 +530,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -546,20 +538,14 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -577,38 +563,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		7A156461FB9E3BD77E39A1547687CD69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9BFD15451D6B19A4B6597D4BAEB4979 /* HCModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HCModule/HCModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HCModule/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HCModule/HCModule.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HCModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		ACD5A37E41F8A98215788748C7560E3F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -646,7 +600,39 @@
 			};
 			name = Release;
 		};
-		B0F97CB5287E9C8059ECF64E323CFD44 /* Release */ = {
+		CBCBD6B0B2845D585E60622DFE649F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BFD15451D6B19A4B6597D4BAEB4979 /* HCModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HCModule/HCModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HCModule/HCModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HCModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7008B6DDCB4E12CA253551D84577E43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9BFD15451D6B19A4B6597D4BAEB4979 /* HCModule.xcconfig */;
 			buildSettings = {
@@ -726,20 +712,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		500905B2F31CDD5608918E733253F609 /* Build configuration list for PBXNativeTarget "HCModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCBD6B0B2845D585E60622DFE649F41 /* Debug */,
+				E7008B6DDCB4E12CA253551D84577E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B681E4269EDD141AC960607B62610C26 /* Build configuration list for PBXNativeTarget "Pods-HCModule_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4008706333A112C3D679AEDD46DF1310 /* Debug */,
 				EBEAC5559027E8C6156FC0AD131EF852 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D5E3919802433DE0EB99A3C909B2E01C /* Build configuration list for PBXNativeTarget "HCModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A156461FB9E3BD77E39A1547687CD69 /* Debug */,
-				B0F97CB5287E9C8059ECF64E323CFD44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

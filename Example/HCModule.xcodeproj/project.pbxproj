@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		475B35D11F79F370003A559D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475B35D01F79F370003A559D /* Launch Screen.storyboard */; };
+		47BE8BDF1F7DE99900B66889 /* HCViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE8BDE1F7DE99900B66889 /* HCViewController1.m */; };
+		47BE8BE21F7DE9A600B66889 /* HCViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE8BE11F7DE9A600B66889 /* HCViewController2.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,6 +43,10 @@
 		320B7E5A3307705933A79A63 /* Pods_HCModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4197E4C77CDD72A329429DE0 /* Pods-HCModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCModule_Tests/Pods-HCModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		475B35D01F79F370003A559D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		47BE8BDD1F7DE99900B66889 /* HCViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCViewController1.h; sourceTree = "<group>"; };
+		47BE8BDE1F7DE99900B66889 /* HCViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCViewController1.m; sourceTree = "<group>"; };
+		47BE8BE01F7DE9A600B66889 /* HCViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCViewController2.h; sourceTree = "<group>"; };
+		47BE8BE11F7DE9A600B66889 /* HCViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCViewController2.m; sourceTree = "<group>"; };
 		589C1793E9458E22FF1DB3B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5D66491F5E3F6F5792EC56F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HCModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +144,10 @@
 				6003F59D195388D20070C39A /* HCAppDelegate.m */,
 				6003F5A5195388D20070C39A /* HCViewController.h */,
 				6003F5A6195388D20070C39A /* HCViewController.m */,
+				47BE8BDD1F7DE99900B66889 /* HCViewController1.h */,
+				47BE8BDE1F7DE99900B66889 /* HCViewController1.m */,
+				47BE8BE01F7DE9A600B66889 /* HCViewController2.h */,
+				47BE8BE11F7DE9A600B66889 /* HCViewController2.m */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for HCModule";
@@ -402,7 +412,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HCAppDelegate.m in Sources */,
+				47BE8BDF1F7DE99900B66889 /* HCViewController1.m in Sources */,
 				6003F5A7195388D20070C39A /* HCViewController.m in Sources */,
+				47BE8BE21F7DE9A600B66889 /* HCViewController2.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

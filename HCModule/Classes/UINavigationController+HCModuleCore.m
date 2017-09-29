@@ -10,7 +10,7 @@
 
 @implementation UINavigationController (HCModuleCore)
 
-- (BOOL)scc_pushModule:(NSString *)moduleName animated:(BOOL)animated withParams:(NSDictionary *)params callback:(void(^)(NSDictionary *moduleInfo))callback {
+- (BOOL)pushModule:(NSString *)moduleName animated:(BOOL)animated withParams:(NSDictionary *)params callback:(void(^)(NSDictionary *moduleInfo))callback {
     BOOL suc = NO;
     UIViewController *moduleVC = [[HCModuleCore moduleCore] moduleName:moduleName openWithParams:params callback:callback];
     if ([moduleVC isKindOfClass:[UIViewController class]]) {

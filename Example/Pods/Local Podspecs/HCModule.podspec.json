@@ -1,8 +1,8 @@
 {
   "name": "HCModule",
   "version": "0.1.0",
-  "summary": "A short description of HCModule.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "协议跳转",
+  "description": "协议跳转",
   "homepage": "https://github.com/HChong3210/HCModule",
   "license": {
     "type": "MIT",
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HCModule/Classes/**/*"
+  "source_files": "HCModule/Classes/**/*.{h,m}",
+  "public_header_files": "HCModule/Classes/**/*.h"
 }
